@@ -9,8 +9,8 @@ public class Bai1 {
             System.out.println("So nhap ko hop le!");
         } else {
             int sum = 0;
-            for (int i = 1; i < N; i++) {
-                sum += 1;
+            for (int i = 1; i <= N; i++) {
+                sum += i;
             }
             System.out.println("Tong cac so tu 1 den " + N + " la: " + sum);
         }
